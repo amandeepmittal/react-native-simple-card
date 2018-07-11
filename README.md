@@ -40,14 +40,16 @@ export default class App extends React.Component {
 	render() {
 		return (
 			<View style={styles.container}>
-				<Text>Open up App.js to start working on your app!</Text>
 				<SingleCardView
 					elevation={1}
 					shadowColor="rgb(50,50,50)"
 					shadowOpacity={1}
-					marginTop={100}
+					marginTop={150}
+					height={200}
 				>
-					<Text>This is a simple card!</Text>
+					<Text style={{ padding: 10, fontSize: 18 }}>
+						This is a simple card!
+					</Text>
 				</SingleCardView>
 			</View>
 		);
@@ -66,12 +68,40 @@ const styles = StyleSheet.create({
 
 Result:
 
-![ss]()
-
-Note: it will not render correctly until you provide a `backgroundColor` prop. It accepts children props so you can manipulate and style the text inside accordingly.
-
-![ss1](https://i.imgur.com/ilsnYB7.png)
+![ss](https://i.imgur.com/mxmYOAB.png)
 
 ## Properties
 
+Properties that you can customize using props:
+
+```js
+static defaultProps = {
+		backgroundColor: '#ebebeb',
+		marginTop: 100,
+		width: 350,
+		height: 350,
+		shadowColor: 'rgb(50,50,50)',
+		shadowOpacity: 0.5,
+		shadowRadius: 5,
+		elevation: 3
+  };
+```
+
+- `backgroundColor`
+- `marginTop`
+- `width`
+- `height`
+
+**for iOS:**
+
+- `shadowColor`
+- `shadowOpacity`
+- `shadowRadius`
+
+**for android**
+
+- elevation
+
 ## License
+
+This project is licensed under the MIT License - see the LICENSE file for more details.
