@@ -40,8 +40,9 @@ class SingleCardView extends Component {
 							})
 						}
 					]}
-				/>
-				{this.props.children}
+				>
+					{this.props.children}
+				</View>
 			</View>
 		);
 	}
