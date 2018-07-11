@@ -1,7 +1,7 @@
 # react-native-simple-card
 
 [![npm](https://img.shields.io/npm/dt/react-native-simple-card.svg?style=flat-square)](https://www.npmjs.com/package/react-native-simple-card)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/amandeepmittal/eslint-config-amanhimself)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/amandeepmittal/react-native-simple-card)
 ![code style expo](https://img.shields.io/badge/code%20style-expo-blue.svg)
 ![code style react-native](https://img.shields.io/badge/code%20style-react%20native-ff69b4.svg)
 
@@ -100,7 +100,7 @@ static defaultProps = {
 
 **for android**
 
-- elevation
+- `elevation`
 
 ## License
 

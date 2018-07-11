@@ -1,6 +1,6 @@
 {
 	"name": "react-native-simple-card",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Simple Card View for React Native and Expo applications.",
 	"main": "index.js",
 	"scripts": {
